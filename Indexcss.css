@@ -1,0 +1,481 @@
+#bod{
+   margin: 0;
+   padding: 0;
+}
+
+/*1. below is get button */
+#gets{
+   background-color: green;
+   color: white;
+   border: 0;
+   border-radius: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: crosshair;
+}
+#gets:hover{
+   background-image: radial-gradient(rgb(70, 253, 64),rgb(45, 248, 18),rgb(2, 75, 8) ) ;
+   color: black;
+}
+#gets_1{
+   background-color: green;
+   color: white;
+   border: 0;
+   border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: crosshair;
+}
+#gets_1:hover{
+   background-image:  radial-gradient(rgb(70, 253, 64),rgb(45, 248, 18),rgb(2, 75, 8) ) ;
+   color: black;
+}
+#gets_1:active{
+    background-image: radial-gradient(rgb(247, 84, 84),rgb(236, 33, 6),rgb(75, 2, 2) );
+}
+
+
+/* 2.below for nav bar */
+
+.left1{
+   padding-left: 8.125rem;
+   color: gray;
+}
+.right1{
+   padding-right: 8.125rem;
+}
+#act1 {
+   color: rgb(95, 255, 2);
+}
+.navo,li {
+   padding-left: 3px;
+   padding-right: 3px;
+}
+#shad1{
+   box-shadow: 1px 1px 7px 1px rgb(154, 235, 129);
+   /* position: fixed; */
+   width:100%;
+}
+
+/* 3.below is second section */
+
+.second{
+   width: 100vw;
+   height: 55vh;
+   
+   /* border: 1px solid black; */
+  
+
+}
+.second1{
+   
+   margin: 1em auto;
+   /* border: 1px solid black; */
+  
+   height: 50vh;
+   width: 80vw;
+     
+}
+.second1_1{
+   float: left;
+   width: 39vw;
+   height: 45vh;
+   padding-top: 0.5em;
+   /* border:1px solid black; */
+   
+}
+
+.second1_2{
+   float: right;
+   width: 39vw; 
+   height: 45vh;
+   /* border: 1px solid black; */
+   padding-left: 2em;
+   
+}
+.second1_2 > img{
+   width: 30vw;
+   height: 20vw;
+   min-width: 200px;
+   min-height: 300px;
+   
+   /* border: 1px solid black; */
+    
+}
+
+
+
+
+/* 4.below is third section */
+
+.third{
+   width: 100vw;
+   height: 55vh;
+   
+   /* border: 1px solid black; */
+  
+   
+}
+.third1{
+   margin: auto;
+   /* border: 1px solid black; */
+  
+   height: 50vh;
+   width: 80vw;
+
+}
+.third1_1{
+   float: left;
+   width: 39vw; 
+   height: 45vh;
+   /* border: 1px solid black; */
+   padding-left: 2em;
+}
+.third1_1 > img {
+   width: 30vw;
+   height: 20vw;
+   min-width: 200px;
+   min-height: 300px;
+   translate: 4.5rem;
+   /* border: 1px solid black; */
+}
+
+.third1_2{
+   float: right;
+   width: 39vw;
+   height: 45vh;
+   padding-top: 0.5em;
+   /* border:1px solid black; */
+   overflow: auto;
+}
+
+.ico{
+   display: flex; 
+}
+.ico1, .ico2, .ico3{  
+   margin: 4px;
+}
+
+/* 5.below is fourth section */
+
+.fourth{
+   
+   text-align: center;
+   width: 100vw;
+   height: 110vh;
+   
+   /* border: 1px solid black; */
+
+}
+.fourth hr{
+   width: 20vw;
+   margin: 0 auto;
+   color: rgb(30, 0, 202);
+   padding: 3px;
+   border-width: 3px;
+}
+.port{
+   
+   color: rgb(43, 89, 153);
+}
+
+.galt > li,a{
+   display: inline;
+   text-decoration: none;
+   color: rgb(100, 98, 98);
+
+
+}
+.galt > #card{ 
+   color: rgb(0, 89, 255);
+}
+.galt > #teamcolor{
+   color: rgb(228, 68, 4);
+}
+.galt > #contactcolor{ 
+   color: rgb(255, 0, 179);
+}
+
+
+/* 6.below is for image gallery */
+
+
+.gal{
+   display:grid;
+   grid-template-columns: auto auto auto;
+   width: 80vw;
+   height: 80vh;
+   
+   align-content: space-around;
+   
+   margin: auto;
+   /* border: 1px solid black; */
+   
+}
+
+.gal  img {
+   width: 25vw;
+   height: 25vh;
+   box-shadow: 0 0 5px 2px #6b9cc5;
+   border-radius: 5px;
+}
+.gal  img:hover{
+    transform: scale(1.1,1.1);
+    /* cursor: none; */
+    cursor: pointer;
+}
+
+
+   /* 7.below is for image details */
+   
+.gal-detail{
+   width: 100vw;
+   height: 100vh;
+   /* background-image: radial-gradient(rgb(198, 222, 248) ,rgb(209, 227, 248) 10%,rgb(148, 145, 145) 90%); */
+   background-color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   display: none;
+   z-index: 100;
+   align-items: center;
+}
+.gal-detail img {
+   width:50vw;
+   height: 80vh;
+   border-radius: 1.3rem;
+   translate: 3rem;
+   /* border: 1px solid black; */
+}
+
+.galdes{
+   display: flex;
+   flex-direction: column;
+   width: 35vw;
+   height: 80vh;
+   margin: auto;
+   /* border: 1px solid black; */
+   border-radius: 1.3rem;
+   justify-content: space-around;
+   /* background-image: linear-gradient(90deg,rgba(228, 222, 222,0.1) 90%,rgba(59, 57, 57,1.0)); */
+   padding: 0.5rem;
+   overflow: auto;
+   gap: 1rem;
+   flex-wrap: wrap;
+   
+}
+#close{
+   
+   width: 5vw;
+   height: 5vh;
+   translate: -40px 40px;
+   position: absolute;
+   top: 5vh;
+   right: 5vw;
+}
+#close:hover{
+   cursor: grab;
+}
+
+
+
+
+
+/* #mistake{
+   border: 1px solid black;
+} */
+
+/* .galdes div{
+   border: 1px solid rgb(243, 243, 243);
+} */
+.galdes h1,p{
+   text-align: left;
+}
+
+/* 8.below is fifth section(team) */
+
+.fifth{
+   width: 100vw;
+   height: 65vh;
+   /* border: 1px solid black; */
+   text-align: center;
+  
+}
+.port2{
+   color: rgb(155, 107, 2);
+}
+.fifth hr{
+   width: 20vw;
+   margin: 0 auto;
+   color: rgb(190, 24, 2);
+   padding: 0.5rem;
+   border-width: 3px;
+}
+
+.fifth1{
+   margin: auto;
+   /* border: 1px solid black; */
+   
+   height: 40vh;
+   width: 80vw;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0.5em;
+
+}
+.fifth1 > div {
+   /* border: 1px solid black; */
+   width: 18vw;
+   height: 40vh;
+   
+}
+
+#e,#f,#g,#h{
+   /* border: 1px solid black; */
+   width: 18vw;
+   height: 35vh;
+   border-radius: 1rem;
+   box-shadow: 0px 0px 2px 4px rgb(126, 123, 117);
+}
+#e:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+#f:hover{
+   transform: scale(0.9,0.9);  
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+#g:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+#h:hover{
+   transform: scale(0.9,0.9);
+   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+}
+/* .hide1{
+   translate: 3rem 2rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 2rem;
+}
+.hide1,p{
+   font-size: 10px;
+}
+#hide2:hover{
+   font-size: 30px;
+} */
+
+
+
+/* 9.below is sixth section(clients) */
+
+.sixth{
+   width: 100vw;
+   height: 46vh;
+   /* border: 1px solid black; */
+   text-align: center;
+}
+.port3{
+   color: rgb(194, 7, 131);
+}
+.sixth hr{
+   width: 20vw;
+   margin: 0 auto;
+   color: rgb(238, 0, 139);
+   padding: 0.5rem;
+   border-width: 3px;
+}
+
+.sixth1{
+   margin: auto;
+   /* border: 1px solid black; */
+   
+   height: 22vh;
+   width: 80vw;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0.5em;
+
+}
+#a,#b,#c,#d{
+   /* border: 1px solid black; */
+   width: 16vw;
+   height: 18vh;
+}
+
+/* 10.below is seventh section(footer) */
+
+.seventh{
+   width: 100vw;
+   height: 50vh;
+   /* border: 1px solid black; */
+   
+}
+.seventh1{
+   width: 80vw;
+   height: 35vh;
+   margin: auto;
+   padding-top: 6rem;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-around;
+}
+.seventh1 > div{
+   width: 16vw;
+   height: 32vh;
+   margin-top: 0.5em;
+   overflow: auto;
+   /* border: 1px solid rgb(228, 8, 8); */
+}
+
+#social > span{
+    padding: 0.5em;
+}
+
+@counter-style custom-unordered {
+   system: fixed;
+   symbols:  '👉' '👉''👉''👉''👉';
+   suffix: ' ';
+ }
+
+.listtype{
+   list-style: custom-unordered;
+
+}
+
+/* 11.below is eighth section(last) */
+
+.eighth{
+   width: 100vw;
+   height: 6vh;
+   background-image:radial-gradient(white,pink 80%);
+   
+   /* border: 1px solid rgb(235, 49, 194); */
+   
+}
+.eighth1{
+   width: 80vw;
+   height: 5vh;
+   margin: auto;
+   display: flex;
+   /* border: 1px solid rgb(11, 146, 22); */
+   position: relative;
+   bottom: 0;
+}
+.eighth1 > div{
+   width: 40vw;
+   height: 4vh;
+   margin-top: 1em;
+   /* border: 1px solid rgb(18, 7, 173); */
+   font-size: 1rem;
+}
+.foot2 > p{
+   text-align: right;
+}
+#myname{
+   color:  rgb(226, 19, 174);
+}
+#up{
+   translate: 6rem 0.6rem;
+}

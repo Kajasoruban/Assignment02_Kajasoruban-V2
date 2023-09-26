@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+	<head>       
+		<title>Fantasy Easy.io</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="Assets/images/kakashi.ico">
+		<link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="Indexcss.css">
+
+
+	</head>
+
+
+	<body id="bod">
+
+           <!-- 1.this is the first section (nav bar)-->
+		  
+		<section>
+		<nav class="navbar navbar-expand-lg navbar-light " id="shad1">
+			<div class="container-fluid">
+			  <a class="navbar-brand left1" href="#">Fantasy Easy</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse right1" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 navo">
+				  <li class="nav-item">
+					<a class="nav-link active" id="act1" aria-current="page" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				  </li>
+
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				  </li>
+
+				  <li class="nav-item">
+					<a class="nav-link" href="#portfolio">Portfolio</a>
+				  </li>
+
+				  <li class="nav-item">
+					<a class="nav-link" href="#team">Team</a>
+				  </li>
+
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Dropdown
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <li><a class="dropdown-item" href="#">Don't click</a></li>
+					  <li><a class="dropdown-item" href="#">Not gonna work</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="#">Do something else..</a></li>
+					</ul>
+				  </li>
+
+				  <li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				  </li>
+				 
+				</ul>
+				
+				  <button class="btn btn-outline-success" type="button" id="gets">Get Started</button>
+				
+			  </div>
+			</div>
+		  </nav>
+		  </section> 
+
+		    <!-- 2.this is the second section -->
+
+
+		  <section class="second">
+
+			<div class="second1">
+
+				<div class="second1_1">
+					<h1>Get Better experience with Fantasy Easy</h1>
+					
+					
+					<p>Find your  fantasy with our help</p>
+					
+					
+						<button class="btn btn-outline-success" type="button" id="gets_1">Get Started</button>
+					  
+				</div>
+
+				<div class="second1_2">
+					<img src="Assets/images/jamesbond.png" alt="a vector image">
+				</div>
+
+			</div>
+
+		  </section>
+
+		     <!-- 3.this is the third section -->
+
+		  <section class="third">
+			<div class="third1">
+				<div class="third1_1">
+					<img src="https://tlgrm.eu/_/stickers/5ef/f27/5eff2766-4f8b-45f1-923d-1fe10d2e60b4/4.webp" alt="a vector image">
+				</div>
+				<div class="third1_2">
+					<h1>Fantasy = Easy</h1>
+					<p>We are not a team of talented designers but we are, who made this website with the little bit help of Bootstrap</p>
+					<div class="ico"><div class="ico1"><img src="Assets/images/chrome.svg" alt="chrome"><p class="fs-5">Chrome</p><p class="fw-lighter">Google Chrome is a cross-platform web browser developed by Google.</p></div><div class="ico2"><img src="Assets/images/github.svg" alt="github"><p class="fs-5">GitHub</p><p class="fw-lighter">GitHub is a platform and cloud-based service for software development and version control using Git.</p></div><div class="ico3"><img src="Assets/images/map.svg" alt="map"><p class="fs-5">Map</p><p class="fw-lighter">A map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.</p></div></div>
+					
+				</div>
+				
+			</div>
+		  </section>
+
+		     <!-- 4.this is the fourth section -->
+		     
+		  <section class="fourth" id="portfolio">
+			
+			 <h2 class="port">Portfolio</h2>
+			 <h2>Check out our beautiful portfolio</h2>
+			             <hr>
+
+						 <ul class="galt">
+							<li><a href="#act1">Home</a></li>
+							<li><a href="#team">Team</a></li>
+							<li id="card">Card</li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+			
+
+				<div class="gal-detail" id="galdetail">
+
+
+
+					<img src="Assets/images/log-out.svg" alt="" id="close" onclick="closegaldetail()">
+				 <div><img src="Assets/images/Deathnote.jpg" alt="Deathnote" id="gal_img"></div>
+				  <div class="galdes">
+					 <div>
+						<h1>Project information</h1>
+						<p><b>Name:</b>  Deathnote</p>
+						<p><b>Client:</b>  Light Yagami</p>
+						<p><b>Project date:</b>  October 4, 2006</p>
+						<p><b>Project url:</b> https://www.imdb.com/title/tt0877057/</p>
+
+					 </div>
+					 <div>
+						<h1>Death Note</h1>
+						<p>"Death Note" itself, a black notebook with instructions (known as "Rules of the Death Note") written on the inside. When used correctly, it allows anyone to commit a murder, knowing only the victim's name and face.</p>
+
+					 </div>
+				  </div>
+				  
+				</div>
+				
+					
+			<div class="gal">
+				<div ><img src="Assets/images/Deathnote.jpg" alt="Deathnote" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Dragon stone.webp" alt="" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Thor.jpg" alt="" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Harryporter.jpeg" alt="" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Obito.webp" alt="" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Aladin-lamp.jpg" alt="" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Jumanji.jpg" alt="" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Squidgame-mask.jpg" alt="Squidgame-mask" onclick="opengaldetail(this.src)"></div>
+				<div><img src="Assets/images/Khonshu3.webp" alt="" onclick="opengaldetail(this.src)"></div>
+				
+			</div>
+            
+		</section>
+
+		<section class="fifth" id="team">
+
+			<h2 class="port2">Team</h2>
+			 <h2>Our team is always here to help you</h2>
+			             <hr>
+						 <ul class="galt">
+							<li><a href="#act1">Home</a></li>
+							<li id="teamcolor">Team</li>
+							<li><a href="#portfolio">Card</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+
+			<div class="fifth1">
+
+				<div><img src="Assets/images/kajan.jpg" alt="" id="e"></div> 
+				<div><img src="Assets/images/piran.jpg" alt="" id="f"></div>
+                <div><img src="Assets/images/siva.jpg" alt="" id="g"></div>
+				<div><img src="Assets/images/abi.jpg" alt="" id="h"></div>
+				
+			</div>
+
+
+		</section>
+
+
+
+		<section class="sixth" id="contact">
+
+			<h2 class="port3">Clients</h2>
+			 <h2>They trusted us</h2>
+			             <hr>
+						 <ul class="galt">
+							<li><a href="#act1">Home</a></li>
+							<li><a href="#team">Team</a></li>
+							<li><a href="#portfolio">Card</a></li>
+							<li id="contactcolor">Contact</li>
+						</ul>
+
+			<div class="sixth1">
+
+				<div><img src="Assets/images/CARTOON_NETWORK_logo.png" alt="" id="a"></div>
+				<div><img src="Assets/images/Chutti_TV.webp" alt="" id="b"></div>
+                <div><img src="Assets/images/585f9333cb11b227491c3581.png" alt="" id="c"></div>
+				<div><img src="Assets/images/disney5456.jpg" alt="" id="d"></div>
+				
+			</div>
+
+
+		</section>
+
+		<section class="seventh">
+
+			<div class="seventh1">
+
+				<div>
+					<h5>Fantasy Easy</h6>
+						<br>
+						<address>
+							Thikiri lane ,Thumpalai,
+							Pointpedro,Jaffna,<br>
+							Sri Lanka.
+						</address>
+						<p><b>Phone: </b><a href="tel:0763227807">0763227807</a><br><b>Email: </b>kajanbluwin@gmail.com</p>
+						
+				</div>
+
+				<div>
+					<h5>Useful Links</h5>
+					<ul class="listtype">
+						<li><a href="">Home</a></li>
+						<li><a href="">About us</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="">Terms of service</a></li>
+						<li><a href="">Privacy policy</a></li>
+					</ul>
+                   
+
+
+				</div>
+
+				<div>
+
+					<h5>Our services</h5>
+					<ul class="listtype">
+						<li>Entertainment</li>
+						<li>Magical powers</li>
+						<li>Blah..</li>
+						<li>Blah..blah..</li>
+						<li>Blah..blah..blah..</li>
+					</ul>
+                   
+
+				</div>
+
+				<div id="social">
+					<h6>Our Social Networks</h6>
+					<p>You can see our social accounts below. Make sure to follow us.</p>
+					<span><img src="Assets/images/twitter_pi.svg" alt=""></span>
+					<span><img src="Assets/images/facebook_pi.svg" alt=""></span>
+					<span><img src="Assets/images/instagram_pi.svg" alt=""></span>
+					<span><img src="Assets/images/youtube_pi.svg" alt=""></span>
+					<span><img src="Assets/images/linkedin_pi.svg" alt=""></span>
+
+				</div>
+
+			</div>
+
+
+		</section>
+
+		<!-- below is for Copyright -->
+
+
+		<section class="eighth">
+
+			<div class="eighth1">
+
+				<div><p>© Copyright @ 2023. All Rights Reserved</p></div>
+				<div class="foot2"><p>Designed by <span id="myname">Kajasoruban</span></p></div>
+				<a href="#act1"><img src="Assets/images/arrow-up-circle.svg" alt="" id="up"></a>
+
+			</div>
+
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+         <script>
+			var galdetail = document.getElementById("galdetail")
+			var gal_img = document.getElementById("gal_img")
+
+			function opengaldetail(pic){
+				galdetail.style.display = "flex";
+				gal_img.src = pic;
+			}
+
+			function closegaldetail(){
+				galdetail.style.display = "none";
+			}
+
+
+
+		 </script>
+        <script src="Assets/js/bootstrap.bundle.min.js"></script>
+	</body>
+
+</html>
+

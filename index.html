@@ -136,32 +136,38 @@
 				  <div class="galdes">
 					 <div>
 						<h1>Project information</h1>
-						<p><b>Name:</b>  Deathnote</p>
-						<p><b>Client:</b>  Light Yagami</p>
-						<p><b>Project date:</b>  October 4, 2006</p>
-						<p><b>Project url:</b> https://www.imdb.com/title/tt0877057/</p>
+						<p><b>Name:</b>  <span id="title2">Deathnote</span></p>
+						<p><b>Client:</b>  <span id="client2">Light Yagami</span></p>
+						<p><b>Project date:</b>  <span id="date2">October 4, 2006</span></p>
+						<p><b>Project url:</b> <span id="url2"><a href='https://www.imdb.com/title/tt0877057/'>https://www.imdb.com/title/tt0877057/</a></span></p>
 
 					 </div>
 					 <div>
-						<h1>Death Note</h1>
-						<p>"Death Note" itself, a black notebook with instructions (known as "Rules of the Death Note") written on the inside. When used correctly, it allows anyone to commit a murder, knowing only the victim's name and face.</p>
+						<h1 id="heading">Death Note</h1>
+						<p id="description">"Death Note" itself, a black notebook with instructions (known as "Rules of the Death Note") written on the inside. When used correctly, it allows anyone to commit a murder, knowing only the victim's name and face.</p>
 
 					 </div>
 				  </div>
 				  
 				</div>
+
+
+				<div>
+                      
+
+				</div>
 				
 					
 			<div class="gal">
-				<div ><img src="Assets/images/Deathnote.jpg" alt="Deathnote" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Dragon stone.webp" alt="" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Thor.jpg" alt="" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Harryporter.jpeg" alt="" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Obito.webp" alt="" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Aladin-lamp.jpg" alt="" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Jumanji.jpg" alt="" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Squidgame-mask.jpg" alt="Squidgame-mask" onclick="opengaldetail(this.src)"></div>
-				<div><img src="Assets/images/Khonshu3.webp" alt="" onclick="opengaldetail(this.src)"></div>
+				<div ><img src="Assets/images/Deathnote.jpg" alt="Deathnote" onclick="opengaldetail(this.src);image1()"></div>
+				<div><img src="Assets/images/Dragon stone.webp" alt="" onclick="opengaldetail(this.src);dragon2()"></div>
+				<div><img src="Assets/images/Thor.jpg" alt="" onclick="opengaldetail(this.src);image3()"></div>
+				<div><img src="Assets/images/Harryporter.jpeg" alt="" onclick="opengaldetail(this.src);image4()"></div>
+				<div><img src="Assets/images/Obito.webp" alt="" onclick="opengaldetail(this.src);image5()"></div>
+				<div><img src="Assets/images/Aladin-lamp.jpg" alt="" onclick="opengaldetail(this.src);image6()"></div>
+				<div><img src="Assets/images/Jumanji.jpg" alt="" onclick="opengaldetail(this.src);image7()"></div>
+				<div><img src="Assets/images/Squidgame-mask.jpg" alt="Squidgame-mask" onclick="opengaldetail(this.src);image8()"></div>
+				<div><img src="Assets/images/Khonshu3.webp" alt="" onclick="opengaldetail(this.src);image9()"></div>
 				
 			</div>
             
@@ -306,11 +312,131 @@
          <script>
 			var galdetail = document.getElementById("galdetail")
 			var gal_img = document.getElementById("gal_img")
+           
+
+
+
 
 			function opengaldetail(pic){
 				galdetail.style.display = "flex";
 				gal_img.src = pic;
+				
 			}
+            
+			 //    content variables for images
+			 var title = document.getElementById('title2')
+			 var client = document.getElementById('client2')
+			 var date = document.getElementById('date2')
+             var url = document.getElementById('url2')
+			 var heading = document.getElementById('heading')
+			 var description = document.getElementById('description')
+
+			 // end of 2nd
+			
+
+                //   funtions for images.
+			function dragon2(){
+                title.innerHTML = "Dragon Stone";
+                client.innerHTML = "Shendu";
+				date.innerHTML = "September 9, 2000";
+				url.innerHTML = "<a href='https://www.imdb.com/title/tt0259141/'>https://www.imdb.com/title/tt0259141/</a>";
+                heading.innerHTML = "Dragon Stone";
+				description.innerHTML = "The user of the Dragon Stone gains the Power of Combustion, which allows them to shoot powerful fire blasts capable of causing immense destruction.";
+
+
+			}
+
+			function image1(){
+                title.innerHTML = "Deathnote";
+                client.innerHTML = "Light Yagami";
+				date.innerHTML = "October 4, 2006";
+				url.innerHTML = "<a href='https://www.imdb.com/title/tt0877057/'>https://www.imdb.com/title/tt0877057/</a>";
+                heading.innerHTML = "Deathnote";
+				description.innerHTML = "'Death Note' itself, a black notebook with instructions (known as 'Rules of the Death Note') written on the inside. When used correctly, it allows anyone to commit a murder, knowing only the victim's name and face.";
+ 
+
+			}
+
+			function image3(){
+                title.innerHTML = "Stormbreaker";
+                client.innerHTML = "Thor";
+				date.innerHTML = "April 27, 2018";
+				url.innerHTML = "<a href='https://www.imdb.com/title/tt4154756/'>https://www.imdb.com/title/tt4154756/</a>";
+                heading.innerHTML = "Stormbreaker";
+				description.innerHTML = "Stormbreaker has the additional power to summon the Bifröst, allowing Thor to teleport anywhere in the Nine Realms. Screen Rant has identified Stormbreaker as the more powerful of the two, based on this ability, as well as it being a much larger and edged weapon.";
+ 
+
+			}
+
+			function image4(){
+                title.innerHTML = " ";
+                client.innerHTML = " ";
+				date.innerHTML = " ";
+				url.innerHTML = "<a href=' '> </a>";
+                heading.innerHTML = " ";
+				description.innerHTML = " ";
+ 
+
+			}
+
+			function image5(){
+                title.innerHTML = " ";
+                client.innerHTML = " ";
+				date.innerHTML = " ";
+				url.innerHTML = "<a href=' '> </a>";
+                heading.innerHTML = " ";
+				description.innerHTML = " ";
+ 
+
+			}
+
+			function image6(){
+                title.innerHTML = " ";
+                client.innerHTML = " ";
+				date.innerHTML = " ";
+				url.innerHTML = "<a href=' '> </a>";
+                heading.innerHTML = " ";
+				description.innerHTML = " ";
+ 
+
+			}
+
+			function image7(){
+                title.innerHTML = " ";
+                client.innerHTML = " ";
+				date.innerHTML = " ";
+				url.innerHTML = "<a href=' '> </a>";
+                heading.innerHTML = " ";
+				description.innerHTML = " ";
+ 
+
+			}
+
+			function image8(){
+                title.innerHTML = " ";
+                client.innerHTML = " ";
+				date.innerHTML = " ";
+				url.innerHTML = "<a href=' '> </a>";
+                heading.innerHTML = " ";
+				description.innerHTML = " ";
+ 
+
+			}
+
+			function image9(){
+                title.innerHTML = " ";
+                client.innerHTML = " ";
+				date.innerHTML = " ";
+				url.innerHTML = "<a href=' '> </a>";
+                heading.innerHTML = " ";
+				description.innerHTML = " ";
+ 
+
+			}
+
+			
+			     
+			    //   end of 2nd
 
 			function closegaldetail(){
 				galdetail.style.display = "none";

@@ -6,6 +6,7 @@
 		<link rel="icon" type="image/x-icon" href="Assets/images/kakashi.ico">
 		<link rel="stylesheet" href="Assets/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="Indexcss.css">
+		
 
 
 	</head>
@@ -97,9 +98,16 @@
 		     <!-- 3.this is the third section -->
 
 		  <section class="third">
+
+			<div class="ad"id="ads">
+				<button id="adbutton" onclick="closeads()">X</button>
+				<img src="https://i.ytimg.com/vi/IP45rOjcK8o/maxresdefault.jpg" alt="" id="ads1">
+
+			</div>
+
 			<div class="third1">
 				<div class="third1_1">
-					<img src="https://tlgrm.eu/_/stickers/5ef/f27/5eff2766-4f8b-45f1-923d-1fe10d2e60b4/4.webp" alt="a vector image">
+					<img src="https://tlgrm.eu/_/stickers/5ef/f27/5eff2766-4f8b-45f1-923d-1fe10d2e60b4/4.webp" alt="a vector image" onmouseover="openads()">
 				</div>
 				<div class="third1_2">
 					<h1>Fantasy = Easy</h1>
@@ -187,10 +195,10 @@
 
 			<div class="fifth1">
 
-				<div><img src="Assets/images/kajan.jpg" alt="" id="e"></div> 
-				<div><img src="Assets/images/piran.jpg" alt="" id="f"></div>
-                <div><img src="Assets/images/siva.jpg" alt="" id="g"></div>
-				<div><img src="Assets/images/abi.jpg" alt="" id="h"></div>
+				<div><img src="Assets/images/kajan.jpg" alt="" id="e"><span id="nam1">Kajasoruban</span></div> 
+				<div><img src="Assets/images/piran.jpg" alt="" id="f"><span id="nam2">Piranavan</span></div>
+                <div><img src="Assets/images/siva.jpg" alt="" id="g"><span id="nam3">Sivashankar</span></div>
+				<div><img src="Assets/images/abi.jpg" alt="" id="h"><span id="nam4">Abiram</span></div>
 				
 			</div>
 
@@ -322,7 +330,33 @@
 				gal_img.src = pic;
 				
 			}
+			function closegaldetail(){
+				galdetail.style.display = "none";
+			}
+
+			// for ad
+			var ads = document.getElementById("ads")
+
+
+			function openads(){
+				ads.style.display = "block";
+			}
+
+			function closeads(){
+				ads.style.display = "none";
+				document.getElementById("ads").id ="nothing1";
+				document.getElementById("ads1").id ="nothing";
+				document.getElementById("adbutton").id ="nothing";
+				
+
+			}
+
+
+
+			// end of ad
             
+
+
 			 //    content variables for images
 			 var title = document.getElementById('title2')
 			 var client = document.getElementById('client2')
@@ -438,9 +472,7 @@
 			     
 			    //   end of 2nd
 
-			function closegaldetail(){
-				galdetail.style.display = "none";
-			}
+			
 
 
 

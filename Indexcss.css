@@ -37,7 +37,12 @@
 
 /* 2.below for nav bar */
 
+@font-face {
+   font-family: 'fantasy';
+   src: url('Assets/fonts/Game\ Of\ Squids.otf');
+}
 .left1{
+   font-family: 'fantasy';
    padding-left: 8.125rem;
    color: gray;
 }
@@ -115,6 +120,34 @@
    /* border: 1px solid black; */
   
    
+}
+#ads{
+   position: fixed;
+   top: 33vh;
+   left: 37vw;
+   width: 39vw;
+   height: 45vh;
+   z-index: 101;
+   display: none;
+   /* border: 1px solid black; */
+   
+}
+
+#nothing{
+   display: none;
+}
+
+#ads1{
+   width: 39vw;
+   height: 43vh;
+   box-shadow: 0 0 20px 10px rgb(224, 173, 96);
+}
+#adbutton{
+   position: fixed;
+   top: 33vh;
+   left: 74vw;
+   font-family: 'fantasy';
+   color: rgb(22, 105, 126);
 }
 .third1{
    margin: auto;
@@ -327,8 +360,26 @@
 .fifth1 > div {
    /* border: 1px solid black; */
    width: 18vw;
+   height: 35vh; 
+   overflow: hidden;
+   /* background-color: black; */
+}
+.fifth1 > div:hover{
+   width: 18vw;
    height: 40vh;
+}
+
+
+@font-face {
+   font-family: 'myfonts';
+   src: url('Assets/fonts/Always\ In\ My\ Heart.ttf');
+}
+.fifth1 span{
    
+   font-family: 'myfonts';
+   font-weight:normal;
+   font-size:1.5rem;
+
 }
 
 #e,#f,#g,#h{
@@ -336,35 +387,14 @@
    width: 18vw;
    height: 35vh;
    border-radius: 1rem;
-   box-shadow: 0px 0px 2px 4px rgb(126, 123, 117);
+   box-shadow: 0px 0px 2px 4px rgb(235, 234, 232);
 }
-#e:hover{
+#e:hover,#f:hover,#g:hover,#h:hover{
    transform: scale(0.9,0.9);
-   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
+   box-shadow: 2px 2px 8px 6px rgb(223, 216, 122);
+   
 }
-#f:hover{
-   transform: scale(0.9,0.9);  
-   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
-}
-#g:hover{
-   transform: scale(0.9,0.9);
-   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
-}
-#h:hover{
-   transform: scale(0.9,0.9);
-   box-shadow: 2px 2px 8px 6px rgb(212, 200, 20);
-}
-/* .hide1{
-   translate: 3rem 2rem;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 2rem;
-}
-.hide1,p{
-   font-size: 10px;
-}
-#hide2:hover{
-   font-size: 30px;
-} */
+
 
 
 

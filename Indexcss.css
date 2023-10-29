@@ -99,8 +99,8 @@
    
 }
 .second1_2 > img{
-   width: 30vw;
-   height: 20vw;
+   width: 40vw;
+   height: 25vw;
    min-width: 200px;
    min-height: 300px;
    
@@ -124,7 +124,7 @@
 #ads{
    position: fixed;
    top: 33vh;
-   left: 37vw;
+   left: 30vw;
    width: 39vw;
    height: 45vh;
    z-index: 101;
@@ -140,12 +140,12 @@
 #ads1{
    width: 39vw;
    height: 43vh;
-   box-shadow: 0 0 20px 10px rgb(224, 173, 96);
+   box-shadow: 0 0 50px 20px rgb(202, 209, 201);
 }
 #adbutton{
    position: fixed;
    top: 33vh;
-   left: 74vw;
+   left: 67.2vw;
    font-family: 'fantasy';
    color: rgb(22, 105, 126);
 }
@@ -165,11 +165,11 @@
    padding-left: 2em;
 }
 .third1_1 > img {
-   width: 30vw;
-   height: 20vw;
+   width: 50vw;
+   height: 30vw;
    min-width: 200px;
    min-height: 300px;
-   translate: 4.5rem;
+   translate: 0rem -2rem;
    /* border: 1px solid black; */
 }
 
